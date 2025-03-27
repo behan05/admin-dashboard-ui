@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 3rem;
+}
+
+.statCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.table {
+  width: 100%;
+  overflow-x: auto;
+}

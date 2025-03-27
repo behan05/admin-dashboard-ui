@@ -1,0 +1,41 @@
+.tableContainer {
+  width: 100%;
+  padding: 1rem;
+  background: #2c2c2c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background: #3a3a3a;
+}
+
+.completed {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.failed {
+  color: red;
+}
